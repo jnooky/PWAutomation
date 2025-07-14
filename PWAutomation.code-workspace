@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../ExcelJS"
+		},
+		{
+			"path": "../BasicsJS"
+		}
+	],
+	"settings": {}
+}

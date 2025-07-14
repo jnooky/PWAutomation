@@ -1,0 +1,25 @@
+{
+  "name": "pwautomation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test tests/webAPI2.spec.js --headed",
+    "regression": "npx playwright test",
+    "web": "npx playwright test --grep @Web",
+    "api": "npx playwright test --grep @API",
+    "single": "npx playwright test NetworkTest.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "@playwright/test": "^1.53.0",
+    "@types/node": "^24.0.1",
+    "allure-playwright": "^3.3.0"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}
